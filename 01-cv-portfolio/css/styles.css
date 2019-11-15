@@ -21,7 +21,7 @@
 	6. ABOUT SECTION
 	7. EXPERIENCE SECTION
 	8. EDUCATION SECTION
-	9. COUNTER SECTION
+	9. REFEREE SECTION
 	10. FOOTER
 
 ====================================================
@@ -156,29 +156,7 @@ header .downlad-btn:hover{ -webkit-transform: translateY(-4px); transform: trans
 
 
 /* ---------------------------------
-5. PORFOLIO SECTION
---------------------------------- */
 
-.portfolio-section{ padding-bottom: 0; }
-
-.portfolio-section .portfolioFilter{ margin-top: 60px; color: #666; }
-
-.portfolio-section .portfolioFilter a{ margin: 10px 10px 0 0; }
-
-.portfolio-section .portfolioFilter a.current{  color: #FFA804; }
-
-.portfolio-section .portfolioContainer{ margin-left: -15px; margin-right: -15px; }
-
-.portfolio-section .p-item{ width: 33.333%; padding: 0 7.5px 0px; margin-top: 15px; }
-
-.portfolio-section .p-item a{ display: inline; }
-
-.portfolio-section .p-item.p-item-2 .img:first-child{ float: left; width: 50%; padding-right: 7.5px; }
-
-.portfolio-section .p-item.p-item-2 .img:last-child{ float: right; width: 50%; padding-left: 7.5px; }
-
-
-/* ---------------------------------
 6. ABOUT SECTION
 --------------------------------- */
 
@@ -198,7 +176,7 @@ header .downlad-btn:hover{ -webkit-transform: translateY(-4px); transform: trans
 7. EXPERIENCE SECTION
 --------------------------------- */
 
-.experience-section{ background: #28023D; color: #fff; }
+.experience-section{ background: #28023d; color: #fff; }
 
 .experience .list > li{ display: block; position: relative; margin-bottom: 10px; padding-left: 20px; }
 
@@ -220,23 +198,22 @@ header .downlad-btn:hover{ -webkit-transform: translateY(-4px); transform: trans
 .education-wrapper .education:after{ content:''; position: absolute; top: 8px; left: -58px; width: 16px; 
 	height: 16px; border-radius: 10px; z-index: 1;
 	box-shadow: 0 0 0 8px rgba(255,171,0, .4); background: #FFAB00; }
+.education-wrapper .list > li{ display:block; position: relative; margin-bottom: 10px; padding-left: 20px;}
+
+.education-wrapper .list > li:before{ content: ''; position: absolute; top: 50%; left: 0; height: 10px; 
+	width: 10px; margin-top: -5px; display: block; border-radius: 10px; border: 2px solid #FFAB00; }	
 	
 	
 /* ---------------------------------
-9. COUNTER SECTION
+9. REFEREE SECTION
 --------------------------------- */
 
-.counter-section{ position: relative; padding: 100px 0 70px; background-size: cover; z-index: 1; 
-	background-image: url(../../images/slider-2-1920x600.jpg); color: #fff; }
+.referee-section{ background: #28023d; color: #fff; }
 
-.counter-section:after{ content:''; z-index: -1; position: absolute; top: 0; bottom: 0; left: 0; 
-	right: 0; background: rgba(0,0,0, .2); }
+.referee- .list > li{ display: block; position: relative; margin-bottom: 10px; padding-left: 20px; }
 
-.counter{ position: relative; }
-	
-.counter .title{ text-align: right; margin-right: 130px; }
-
-.counter .desc{ position: absolute; bottom: 4px; right: 0px; width: 110px; }
+.referee-section .list > li:before{ content: ''; position: absolute; top: 50%; left: 0; height: 10px; 
+	width: 10px; margin-top: -5px; display: block; border-radius: 10px; border: 2px solid #fff; }
 
 
 /* RADIAL PREOGRESS SECTION */
@@ -258,5 +235,5 @@ header .downlad-btn:hover{ -webkit-transform: translateY(-4px); transform: trans
 10. FOOTER
 --------------------------------- */
 
-.copyright{ text-align: center; padding: 30px 0; background: #28023D; }
+.copyright{ text-align: center; padding: 30px 0; background: #FFAB00; color: whitesmoke;; }
 
